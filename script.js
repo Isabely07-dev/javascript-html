@@ -1,11 +1,15 @@
-//loop de repetição for
+//loop de repetição while
 
-for(let i = 0; i <= 10; i++){
-    console.log(`Numero ${i}`);
+let contador = 1; 
+while (contador <= 3) {
+    console.log(`Contafdor ${contador}`);
+    contador++;
 }
 
 /*
-para (inteiro i = 1; i <= 10; i++) {
-   escreva("Numero " + i);
+inteiro contador = 1;
+enquanto (contador <= 3) {
+    escreva("Contador ", contador);
+    contador = contador + 1;
 }
 */
